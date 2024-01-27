@@ -12,3 +12,18 @@ C:\Users\Felix\OneDrive\Bureau\École\hiver 2024\POO2\Atelier101\obj\Debug\net6.
 C:\Users\Felix\OneDrive\Bureau\École\hiver 2024\POO2\Atelier101\obj\Debug\net6.0\Atelier101.pdb
 C:\Users\Felix\OneDrive\Bureau\École\hiver 2024\POO2\Atelier101\obj\Debug\net6.0\Atelier101.genruntimeconfig.cache
 C:\Users\Felix\OneDrive\Bureau\École\hiver 2024\POO2\Atelier101\obj\Debug\net6.0\ref\Atelier101.dll
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\bin\Debug\net6.0\Atelier101.exe
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\bin\Debug\net6.0\Atelier101.deps.json
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\bin\Debug\net6.0\Atelier101.runtimeconfig.json
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\bin\Debug\net6.0\Atelier101.dll
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\bin\Debug\net6.0\Atelier101.pdb
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.AssemblyInfoInputs.cache
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.AssemblyInfo.cs
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.csproj.CoreCompileInputs.cache
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.sourcelink.json
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.dll
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\refint\Atelier101.dll
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.pdb
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\Atelier101.genruntimeconfig.cache
+C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\obj\Debug\net6.0\ref\Atelier101.dll

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+9irZUXpClJqSS7UThcvqPl3gyGC0fSkgzNZhV34P1p489iE/Pw5GB00I+s10pIf/JKtEtYwP3W9NlxgPMlpFw==",
+  "dgSpecHash": "btz2BOzHb0nJC1XRj2i+N2ZR9wn34PAkaREghkO6i6tyewDOPNx7uscQPXPo+onJwf1dZSeoww+ynywzrLyrLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felix\\OneDrive\\Bureau\\École\\hiver 2024\\POO2\\Atelier101\\Atelier101.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Felix\\Desktop\\Ecole\\POO2\\Atelier101\\Atelier101.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Felix\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

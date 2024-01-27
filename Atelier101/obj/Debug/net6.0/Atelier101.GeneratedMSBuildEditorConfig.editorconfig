@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Atelier101
-build_property.ProjectDir = C:\Users\Felix\OneDrive\Bureau\École\hiver 2024\POO2\Atelier101\
+build_property.ProjectDir = C:\Users\Felix\Desktop\Ecole\POO2\Atelier101\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
