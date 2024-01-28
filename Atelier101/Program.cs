@@ -198,7 +198,7 @@
                     }
                     else 
                     {
-                        dureePlacement = resultat; 
+                        dureePlacement = resultat /12 * rythmeComposition; 
                     }  
                 }
                 else
