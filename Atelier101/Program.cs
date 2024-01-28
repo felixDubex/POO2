@@ -26,7 +26,7 @@
 
                 Console.Write("Option sélectionnée: ");
                 string choix = Console.ReadLine();
-            
+
                 if (choix == "R" || choix == "r")
                 {
                     codeParam = 0;
@@ -72,7 +72,6 @@
                     }
                     exit = true;
                 }
-
                 else if (choix == "P" || choix == "p")
                 {
                     codeParam = 1;
@@ -88,7 +87,7 @@
                     bool fin = false;
                     while (!fin)
                     {
-                        Console.Write("Voulez-vous avoir les itérations mensuelles? oui ou non: ");
+                        Console.Write("Voulez-vous avoir les itérations ? oui ou non: ");
                         string choixIteration = Console.ReadLine();
 
                         if (choixIteration == "oui" || choixIteration == "Oui" || choixIteration == "y")
@@ -104,11 +103,9 @@
                                         solde += interetMensuel;
                                         interetcumulatifcum += interetMensuel;
 
-                                        Console.WriteLine(mois.ToString("N0").PadLeft(6) + " " + solde.ToString("N2").PadLeft(9) + "$ " + interetMensuel.ToString("N2").PadLeft(7) + "$ " + interetcumulatifcum.ToString("N2").PadLeft(9) +
-                                    "$ ");
+                                        Console.WriteLine(mois.ToString("N0").PadLeft(6) + " " + solde.ToString("N2").PadLeft(9) + "$ " + interetMensuel.ToString("N2").PadLeft(7) + "$ " + interetcumulatifcum.ToString("N2").PadLeft(9) + "$ ");
                                     }
                                 }
-
                             }
                             fin = true;
                         }
@@ -124,8 +121,7 @@
 
                                     if (mois == dureePlacement)
                                     {
-                                        Console.WriteLine(mois.ToString("N0").PadLeft(6) + " " + solde.ToString("N2").PadLeft(9) + "$ " + interetMensuel.ToString("N2").PadLeft(7) + "$ " + interetcumulatifcum.ToString("N2").PadLeft(9) +
-                                                                    "$ ");
+                                        Console.WriteLine(mois.ToString("N0").PadLeft(6) + " " + solde.ToString("N2").PadLeft(9) + "$ " + interetMensuel.ToString("N2").PadLeft(7) + "$ " + interetcumulatifcum.ToString("N2").PadLeft(9) + "$ ");
                                     }
                                 }
                             }
@@ -134,7 +130,6 @@
                         else
                         {
                             Console.WriteLine("Oups!");
-
                         }
                     }
                     exit = true;
@@ -144,7 +139,6 @@
                     Console.WriteLine("Oups!");
                 }
             }
-            
         }
         static void SaisirParametres(int code)
         {
@@ -165,7 +159,7 @@
                     detteInitiale = 0;
                 }
                 SaisirTauxAnnuel();
-            }    
+            }
             else
             {
                 Console.Write("Veuillez entrer votre capital de Départ: ");
@@ -180,7 +174,7 @@
                     capitalInitial = 0;
                 }
                 SaisirTauxAnnuel();
-                Console.Write("Veuillez entrer votre rythme de composition: ");
+                Console.Write("Veuillez entrer votre rythme de composition(quotidien:365; mensuel:12; annuel:1):   ");
                 input = Console.ReadLine();
                 if (double.TryParse(input, out resultat))
                 {
@@ -190,20 +184,28 @@
                 {
                     rythmeComposition = 0;
                 }
-                Console.Write("Veuillez entrer votre durée de placement: ");
+                Console.Write("Veuillez entrer votre durée de placement(en mois): ");
                 input = Console.ReadLine();
                 if (double.TryParse(input, out resultat))
                 {
-                    dureePlacement = resultat;
+                    if(rythmeComposition == 1)
+                    {
+                        dureePlacement = resultat / 12;
+                    }
+                    else if (rythmeComposition == 365)
+                    {
+                        dureePlacement = resultat / 12 * 365;
+                    }
+                    else 
+                    {
+                        dureePlacement = resultat; 
+                    }  
                 }
                 else
                 {
                     dureePlacement = 0;
                 }
             }
-
-            
-
         }
 
         static void SaisirTauxAnnuel()
@@ -221,7 +223,5 @@
                 tauxInteretAnnuel = 0;
             }
         }
-
-        
     }
 }
