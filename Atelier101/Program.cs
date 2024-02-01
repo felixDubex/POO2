@@ -70,7 +70,8 @@ namespace Atelier2C6_101_2024
             Humain h3 = new Humain();
             h3.Afficher();
 
-
+            Humain h4 = new Humain("Felix", new DateTime(1995, 12, 15), new DateTime(2015, 12, 15));
+            h4.Afficher();
             Util.Pause();
         }
 
