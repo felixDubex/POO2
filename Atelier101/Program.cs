@@ -36,6 +36,14 @@ namespace Atelier2C6_101_2024
                 case ("H"):
                     ExecHumanite();
                     break;
+                case ("T"):
+                    ExploTableau.Exec();
+                    break;
+                case ("L"):
+                    ExploListe.Exec();
+                    break;
+
+
                 case ("Q"):
                 default:
                     Environment.Exit(0);
@@ -81,9 +89,14 @@ namespace Atelier2C6_101_2024
 
         static void AfficherMenu()
         {
-            Console.WriteLine("f- Financier");
-            Console.WriteLine("h- Humanité");
-            Console.WriteLine("q- Quitter");
+            Console.WriteLine("F- Financier");
+            Console.WriteLine("H- Humanité");
+            Console.WriteLine("T- Tableau (explo)");
+            Console.WriteLine("L- Liste (explo)");
+
+            Console.WriteLine();
+
+            Console.WriteLine("Q- Quitter");
             Console.Write("\nvotre choix:");
         }
 

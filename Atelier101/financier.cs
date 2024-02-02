@@ -126,7 +126,7 @@ namespace Atelier2C6_101_2024
                 double interetCourant = solde * tauxInteretMensuel;
                 paiementCum += paiementMin;
                 interetCum += interetCourant;
-                if (mois % 10 == 0)
+                if (mois % 1 == 0)
                 {
                     Console.WriteLine(_mois.ToString("N0").PadLeft(6) + " "
                                + solde.ToString("N2").PadLeft(9) + " "
